@@ -3,15 +3,23 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
  */
 
-package com.mycompany.objective3lab2;
+package com.mycompany.objective7lab1;
 
 /**
  *
  * @author dez
  */
-public class Objective3Lab2 {
+public class Objective7Lab1 {
+  public static void main(String[] args) {
+      
+    int counter = 10;
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+    while(counter > 0) {
+
+    System.out.println("Counter value is  " + counter);
+
+
+      counter = counter - 1; 
     }
+  }
 }

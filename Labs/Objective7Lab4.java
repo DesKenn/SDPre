@@ -3,22 +3,26 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
  */
 
-package com.mycompany.objective3lab3;
+package com.mycompany.objective7lab4;
 
 /**
  *
  * @author dez
  */
-public class Objective3Lab3 {
+public class Objective7Lab4 {
 
-   
     public static void main(String[] args) {
+        int sum = 0;
+        int count = 1;
         
-        int first= 1 + (int)(Math.random() * 6);
-        int second= 1 + (int)(Math.random() * 6);
-        int third= 1 + (int)(Math.random() * 6);
-         
-        System.out.println("Your three rolls are"+ first + "," + second+ "," + third);
+         while (count <= 20) {
+            sum += count;
+            count += 1;
+            
+    System.out.println("The sum of numbers from 1 to 20 is " + sum);
+
+                 
+                       
     }
 }
-
+}

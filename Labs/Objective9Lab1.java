@@ -3,22 +3,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
  */
 
-package com.mycompany.objective3lab3;
+package com.mycompany.objective9lab1;
 
 /**
  *
  * @author dez
  */
-public class Objective3Lab3 {
+public class Objective9Lab1 {
 
-   
     public static void main(String[] args) {
-        
-        int first= 1 + (int)(Math.random() * 6);
-        int second= 1 + (int)(Math.random() * 6);
-        int third= 1 + (int)(Math.random() * 6);
-         
-        System.out.println("Your three rolls are"+ first + "," + second+ "," + third);
+        printName();
+    }
+    public static void printName() {
+    System.out.println("Hello Doug");
     }
 }
-
